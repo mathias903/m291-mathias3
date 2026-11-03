@@ -894,3 +894,9 @@ html { scroll-padding-top: 96px; }
   }
   .btn-primary:hover, .btn-white:hover, .service-card:hover { transform: none; }
 }
+
+/* Petits écrans : le bouton devis du header cachait le menu burger */
+@media (max-width: 560px) {
+  .header-cta .btn { display: none; }
+  .header-inner { padding: 10px 16px; }
+}
