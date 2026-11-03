@@ -1,74 +1,58 @@
 [
   {
     "id": 1,
-    "nom": "Forfait Essentiel",
     "service": "Maintenance & Sauvegardes",
-    "prix": 190,
-    "unite": "par mois",
-    "surSite": false,
-    "description": "Jusqu'à 5 postes, sauvegardes quotidiennes et support à distance aux heures ouvrables."
+    "titre": "Une infrastructure supervisée en continu",
+    "description": "Nous surveillons vos postes et serveurs, appliquons les correctifs de sécurité et sécurisons vos données avec des sauvegardes automatiques et testées régulièrement.",
+    "inclus": [
+      "Supervision proactive des postes et serveurs",
+      "Application des mises à jour de sécurité",
+      "Sauvegardes automatiques quotidiennes",
+      "Tests de restauration réguliers",
+      "Plan de reprise après incident"
+    ],
+    "lien": "services.html#maintenance"
   },
   {
     "id": 2,
-    "nom": "Forfait Croissance",
-    "service": "Maintenance & Sauvegardes",
-    "prix": 390,
-    "unite": "par mois",
-    "surSite": true,
-    "description": "Jusqu'à 20 postes, plan de reprise, gestion cloud incluse et interlocuteur dédié."
+    "service": "Cloud",
+    "titre": "Vos outils accessibles partout, en sécurité",
+    "description": "Nous migrons et gérons vos environnements cloud (messagerie, fichiers, applications métier) pour un accès fluide depuis n'importe où, sans compromis sur la sécurité.",
+    "inclus": [
+      "Migration vers le cloud sans interruption d'activité",
+      "Messagerie et suite bureautique en ligne",
+      "Stockage et partage de fichiers sécurisés",
+      "Hébergement d'applications métier",
+      "Gestion des accès et des droits utilisateurs"
+    ],
+    "lien": "services.html#cloud"
   },
   {
     "id": 3,
-    "nom": "Migration Microsoft 365",
-    "service": "Cloud",
-    "prix": 85,
-    "unite": "par utilisateur",
-    "surSite": false,
-    "description": "Transfert des emails, fichiers et calendriers vers Microsoft 365, sans interruption d'activité."
+    "service": "Téléphonie",
+    "titre": "Des communications unifiées et fiables",
+    "description": "Nous installons et maintenons vos solutions de téléphonie IP, pour des communications claires entre vos équipes et avec vos clients, sur tous vos sites.",
+    "inclus": [
+      "Téléphonie IP (VoIP) pour un ou plusieurs sites",
+      "Standard téléphonique et renvois d'appels",
+      "Communications unifiées (appels, visio, messagerie)",
+      "Numéros et portabilité gérés pour vous",
+      "Maintenance et support inclus"
+    ],
+    "lien": "services.html#telephonie"
   },
   {
     "id": 4,
-    "nom": "Stockage cloud sécurisé",
-    "service": "Cloud",
-    "prix": 12,
-    "unite": "par utilisateur et par mois",
-    "surSite": false,
-    "description": "Espace de fichiers partagé, chiffré et sauvegardé en Suisse."
-  },
-  {
-    "id": 5,
-    "nom": "Installation téléphonie IP",
-    "service": "Téléphonie",
-    "prix": 450,
-    "unite": "par installation",
-    "surSite": true,
-    "description": "Mise en place du standard, configuration des postes fixes et de l'application mobile."
-  },
-  {
-    "id": 6,
-    "nom": "Abonnement téléphonie",
-    "service": "Téléphonie",
-    "prix": 25,
-    "unite": "par ligne et par mois",
-    "surSite": false,
-    "description": "Ligne IP avec numéro fixe, messagerie vocale et transfert d'appels."
-  },
-  {
-    "id": 7,
-    "nom": "Préparation d'un nouveau poste",
     "service": "Gestion de parc informatique",
-    "prix": 150,
-    "unite": "par poste",
-    "surSite": true,
-    "description": "Installation du système, des logiciels métier et des accès, livré prêt à l'emploi."
-  },
-  {
-    "id": 8,
-    "nom": "Inventaire du parc",
-    "service": "Gestion de parc informatique",
-    "prix": 320,
-    "unite": "par audit",
-    "surSite": true,
-    "description": "Recensement de tous les équipements avec état, garanties et plan de renouvellement."
+    "titre": "Vos équipements suivis de bout en bout",
+    "description": "De l'inventaire au renouvellement, nous gérons l'ensemble de votre parc informatique (postes, imprimantes, serveurs) pour qu'il reste à jour et performant.",
+    "inclus": [
+      "Inventaire complet de vos équipements",
+      "Déploiement de nouveaux postes prêts à l'emploi",
+      "Suivi du cycle de vie et renouvellement planifié",
+      "Gestion des licences logicielles",
+      "Support utilisateur au quotidien"
+    ],
+    "lien": "services.html#parc"
   }
 ]
