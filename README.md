@@ -11,3 +11,10 @@
 Je m'appelle Mathias
 
 Les fiches ajoutées par le formulaire restent affichées jusqu'au rechargement de la page : il n'y a pas de serveur pour les enregistrer.
+
+## Micro-interactions (site T1AS)
+
+- Les boutons changent de couleur en douceur et montrent un halo bleu clair au survol. Ils disent : « ceci se clique, je vous ai entendu ».
+- Les cartes des services et des prestations apparaissent en fondu, au chargement et à chaque recherche. Elles disent : « la liste a changé ».
+- La zone `#erreurs` du formulaire des prestations apparaît en fondu. Elle dit : « regardez ici : il y a quelque chose à corriger ».
+- J'ai retiré le mouvement des cartes de services au survol : la carte ne se clique pas, seul son lien « En savoir plus » se clique.
