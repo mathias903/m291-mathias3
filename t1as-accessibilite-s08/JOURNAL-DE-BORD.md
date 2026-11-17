@@ -54,6 +54,16 @@ Module : ICT 291
   - Message d'erreur clair si le fichier ne charge pas (`.catch`)
 - Résultat testé : les 4 cartes s'affichent comme avant, aucune erreur dans la console, l'accessibilité de la semaine 8 est conservée
 
+## 17 novembre 2026 · Catalogue, recherche, formulaire, animations et icônes (semaines 10 à 14)
+
+- Les 4 services de l'accueil passent dans `services.json` ; `data.json` devient le catalogue des 30 prestations (prix, délai, à distance ou sur place), décrit dans `etiquettes.md`
+- Nouvelle page `prestations.html` (ajoutée au menu de toutes les pages), cartes fabriquées par `prestations.js` et triées du moins cher au plus cher
+- Recherche sur le nom et le service, bouton « Faisable à distance », message quand rien ne correspond
+- Formulaire « Une prestation manque ? » : deux règles, erreurs dans `#erreurs`, la prestation s'ajoute en haut du catalogue
+- Trois micro-interactions (halo des boutons, fondu des cartes, fondu des erreurs), coupées avec « réduire les animations » ; les cartes de services ne bougent plus au survol
+- Deux icônes SVG (`icones/`) : effacer la recherche, proposer la prestation
+- README du dépôt : état du projet, écarts avec la maquette et journal IA
+
 ---
 
 ## Pour ouvrir le site
