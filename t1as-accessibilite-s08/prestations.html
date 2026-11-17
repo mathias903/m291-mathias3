@@ -79,6 +79,31 @@
   </div>
 </section>
 
+<section style="background: var(--gray-50);">
+  <div class="container">
+    <form id="demande" class="form-card demande-card">
+      <h2>Une prestation manque ?</h2>
+      <p class="form-required-note">Proposez-la : elle s'ajoute en haut du catalogue, et nous vous recontactons avec un prix.</p>
+      <div class="form-field">
+        <label for="champ-nom">Nom de la prestation</label>
+        <input type="text" id="champ-nom" name="nom">
+      </div>
+      <div class="form-field">
+        <label for="champ-service">Service concerné</label>
+        <select id="champ-service" name="service">
+          <option value="">Choisissez un service</option>
+          <option>Maintenance & Sauvegardes</option>
+          <option>Cloud</option>
+          <option>Téléphonie</option>
+          <option>Gestion de parc informatique</option>
+        </select>
+      </div>
+      <p id="erreurs" aria-live="polite"></p>
+      <button type="submit" class="btn btn-primary">Proposer la prestation</button>
+    </form>
+  </div>
+</section>
+
 </main>
 
 <footer class="site-footer">

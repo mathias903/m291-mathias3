@@ -8,8 +8,11 @@ let tousLesLieux = [];
 
 // Écrit le prix comme en Suisse : « CHF 90.– »
 function ecrirePrix(prestation) {
+  if (prestation.prix === 0 && prestation.unite === "") {
+    return "Prix sur demande";
+  }
   if (prestation.prix === 0) {
-    return "Inclus";
+    return "Inclus " + prestation.unite.replace("inclus ", "");
   }
   return "CHF " + prestation.prix + ".– " + prestation.unite;
 }
@@ -119,4 +122,48 @@ function appliquerFiltres() {
 
 champRecherche.addEventListener("input", function () {
   appliquerFiltres();
+});
+
+// ----- Semaine 12 : le formulaire « Une prestation manque ? » -----
+
+const formulaire = document.getElementById("demande");
+
+formulaire.addEventListener("submit", function (event) {
+  event.preventDefault();
+  const donnees = new FormData(formulaire);
+  const nom = donnees.get("nom").trim();
+  const service = donnees.get("service");
+  const erreurs = [];
+
+  if (nom.length < 5) {
+    erreurs.push("Décrivez la prestation en au moins 5 caractères.");
+  }
+  if (service === "") {
+    erreurs.push("Choisissez le service concerné.");
+  }
+
+  const zoneErreurs = document.getElementById("erreurs");
+  if (erreurs.length > 0) {
+    zoneErreurs.textContent = "Erreur : " + erreurs.join(" ");
+    return;
+  }
+  zoneErreurs.textContent = "";
+
+  tousLesLieux.unshift({
+    id: tousLesLieux.length + 1,
+    nom: nom,
+    service: service,
+    description: "Prestation proposée par un visiteur. T1AS vous recontacte avec un prix.",
+    aDistance: false,
+    prix: 0,
+    unite: "",
+    delai: "à confirmer"
+  });
+
+  // On enlève la recherche et le filtre, pour que la nouvelle carte se voie en premier
+  champRecherche.value = "";
+  seulementADistance = false;
+  boutonDistance.setAttribute("aria-pressed", "false");
+  appliquerFiltres();
+  formulaire.reset();
 });

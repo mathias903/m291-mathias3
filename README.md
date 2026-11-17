@@ -9,3 +9,5 @@
 ## J'aimerai faire un site ou je présente tout les match de la NBA pour la saison 26/27
 - GitHub : (mathias903)
 Je m'appelle Mathias
+
+Les fiches ajoutées par le formulaire restent affichées jusqu'au rechargement de la page : il n'y a pas de serveur pour les enregistrer.

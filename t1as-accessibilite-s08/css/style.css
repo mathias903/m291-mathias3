@@ -946,7 +946,7 @@ html { scroll-padding-top: 96px; }
   border-radius: var(--radius-md);
   padding: 24px 22px;
 }
-.prestation-card .service-tag { font-size: 12px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--blue-700); }
+.prestation-card .service-tag { align-self: flex-start; font-size: 12px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--blue-700); }
 .prestation-card h3 { font-size: 18px; }
 .prestation-card p { font-size: 14.5px; color: var(--gray-600); }
 .prestation-infos {
@@ -967,3 +967,6 @@ html { scroll-padding-top: 96px; }
 }
 .a-distance { background: var(--blue-100); color: var(--blue-800); }
 .sur-place { background: var(--gray-100); color: var(--gray-800); border: 1px solid var(--gray-600); }
+.demande-card { max-width: 640px; margin: 0 auto; }
+.demande-card select { min-height: 48px; }
+#erreurs { min-height: 1.4em; margin: 0 0 14px; color: #b42318; font-weight: 600; font-size: 14.5px; }
