@@ -1,62 +1,302 @@
 [
   {
     "id": 1,
+    "nom": "Contrôle de santé d'un poste",
     "service": "Maintenance & Sauvegardes",
-    "titre": "Une infrastructure supervisée en continu",
-    "description": "Nous surveillons vos postes et serveurs, appliquons les correctifs de sécurité et sécurisons vos données avec des sauvegardes automatiques et testées régulièrement.",
-    "icone": "outils",
-    "inclus": [
-      "Supervision proactive des postes et serveurs",
-      "Application des mises à jour de sécurité",
-      "Sauvegardes automatiques quotidiennes",
-      "Tests de restauration réguliers",
-      "Plan de reprise après incident"
-    ],
-    "lien": "services.html#maintenance"
+    "description": "Vérification complète d'un ordinateur : disque, mises à jour, antivirus et démarrage.",
+    "aDistance": true,
+    "prix": 90,
+    "unite": "par poste",
+    "delai": "24 h"
   },
   {
     "id": 2,
-    "service": "Cloud",
-    "titre": "Vos outils accessibles partout, en sécurité",
-    "description": "Nous migrons et gérons vos environnements cloud (messagerie, fichiers, applications métier) pour un accès fluide depuis n'importe où, sans compromis sur la sécurité.",
-    "icone": "nuage",
-    "inclus": [
-      "Migration vers le cloud sans interruption d'activité",
-      "Messagerie et suite bureautique en ligne",
-      "Stockage et partage de fichiers sécurisés",
-      "Hébergement d'applications métier",
-      "Gestion des accès et des droits utilisateurs"
-    ],
-    "lien": "services.html#cloud"
+    "nom": "Nettoyage et accélération d'un poste lent",
+    "service": "Maintenance & Sauvegardes",
+    "description": "Suppression des programmes inutiles, nettoyage du démarrage et contrôle du disque.",
+    "aDistance": true,
+    "prix": 120,
+    "unite": "par poste",
+    "delai": "48 h"
   },
   {
     "id": 3,
-    "service": "Téléphonie",
-    "titre": "Des communications unifiées et fiables",
-    "description": "Nous installons et maintenons vos solutions de téléphonie IP, pour des communications claires entre vos équipes et avec vos clients, sur tous vos sites.",
-    "icone": "telephone",
-    "inclus": [
-      "Téléphonie IP (VoIP) pour un ou plusieurs sites",
-      "Standard téléphonique et renvois d'appels",
-      "Communications unifiées (appels, visio, messagerie)",
-      "Numéros et portabilité gérés pour vous",
-      "Maintenance et support inclus"
-    ],
-    "lien": "services.html#telephonie"
+    "nom": "Mises à jour de sécurité mensuelles",
+    "service": "Maintenance & Sauvegardes",
+    "description": "Application des correctifs Windows, macOS et logiciels sur tous vos postes, chaque mois.",
+    "aDistance": true,
+    "prix": 15,
+    "unite": "par poste et par mois",
+    "delai": "chaque mois"
   },
   {
     "id": 4,
+    "nom": "Supervision des serveurs 24 h sur 24",
+    "service": "Maintenance & Sauvegardes",
+    "description": "Alerte immédiate en cas de panne, de disque plein ou de service arrêté.",
+    "aDistance": true,
+    "prix": 89,
+    "unite": "par serveur et par mois",
+    "delai": "dès l'activation"
+  },
+  {
+    "id": 5,
+    "nom": "Sauvegarde automatique dans le cloud",
+    "service": "Maintenance & Sauvegardes",
+    "description": "Sauvegarde quotidienne chiffrée des postes et serveurs, conservée 30 jours.",
+    "aDistance": true,
+    "prix": 12,
+    "unite": "par poste et par mois",
+    "delai": "48 h"
+  },
+  {
+    "id": 6,
+    "nom": "Test de restauration des sauvegardes",
+    "service": "Maintenance & Sauvegardes",
+    "description": "Nous restaurons un échantillon de fichiers pour prouver que la sauvegarde fonctionne.",
+    "aDistance": true,
+    "prix": 180,
+    "unite": "par test",
+    "delai": "1 semaine"
+  },
+  {
+    "id": 7,
+    "nom": "Plan de reprise après incident",
+    "service": "Maintenance & Sauvegardes",
+    "description": "Rédaction de la marche à suivre si un serveur, un local ou un compte tombe.",
+    "aDistance": false,
+    "prix": 950,
+    "unite": "forfait",
+    "delai": "3 semaines"
+  },
+  {
+    "id": 8,
+    "nom": "Remplacement d'un disque défectueux",
+    "service": "Maintenance & Sauvegardes",
+    "description": "Diagnostic, remplacement du disque et récupération des données si possible.",
+    "aDistance": false,
+    "prix": 240,
+    "unite": "par intervention",
+    "delai": "48 h"
+  },
+  {
+    "id": 9,
+    "nom": "Migration de la messagerie vers Microsoft 365",
+    "service": "Cloud",
+    "description": "Transfert des boîtes mail, calendriers et contacts sans perte de messages.",
+    "aDistance": true,
+    "prix": 65,
+    "unite": "par boîte mail",
+    "delai": "1 à 2 semaines"
+  },
+  {
+    "id": 10,
+    "nom": "Configuration de Microsoft 365 pour une PME",
+    "service": "Cloud",
+    "description": "Création des comptes, licences, groupes et règles de sécurité de base.",
+    "aDistance": true,
+    "prix": 450,
+    "unite": "forfait",
+    "delai": "1 semaine"
+  },
+  {
+    "id": 11,
+    "nom": "Partage de fichiers sécurisé",
+    "service": "Cloud",
+    "description": "Mise en place de dossiers partagés avec droits par équipe, accessibles partout.",
+    "aDistance": true,
+    "prix": 380,
+    "unite": "forfait",
+    "delai": "1 semaine"
+  },
+  {
+    "id": 12,
+    "nom": "Double authentification pour tous les comptes",
+    "service": "Cloud",
+    "description": "Activation et accompagnement des collaborateurs pour sécuriser les connexions.",
+    "aDistance": true,
+    "prix": 25,
+    "unite": "par utilisateur",
+    "delai": "48 h"
+  },
+  {
+    "id": 13,
+    "nom": "Hébergement d'une application métier",
+    "service": "Cloud",
+    "description": "Votre logiciel de gestion hébergé en Suisse, sauvegardé et accessible à distance.",
+    "aDistance": true,
+    "prix": 149,
+    "unite": "par mois",
+    "delai": "2 semaines"
+  },
+  {
+    "id": 14,
+    "nom": "Accès à distance sécurisé (VPN)",
+    "service": "Cloud",
+    "description": "Connexion chiffrée au réseau de l'entreprise depuis la maison ou en déplacement.",
+    "aDistance": true,
+    "prix": 290,
+    "unite": "forfait",
+    "delai": "1 semaine"
+  },
+  {
+    "id": 15,
+    "nom": "Gestion des comptes et des droits",
+    "service": "Cloud",
+    "description": "Arrivées, départs et changements de poste : nous gérons les accès pour vous.",
+    "aDistance": true,
+    "prix": 8,
+    "unite": "par utilisateur et par mois",
+    "delai": "24 h"
+  },
+  {
+    "id": 16,
+    "nom": "Archivage des e-mails",
+    "service": "Cloud",
+    "description": "Conservation légale des e-mails pendant 10 ans, recherche rapide.",
+    "aDistance": true,
+    "prix": 4,
+    "unite": "par boîte mail et par mois",
+    "delai": "1 semaine"
+  },
+  {
+    "id": 17,
+    "nom": "Téléphonie IP pour un petit bureau",
+    "service": "Téléphonie",
+    "description": "Installation d'une centrale téléphonique dans le cloud, jusqu'à 5 postes.",
+    "aDistance": false,
+    "prix": 690,
+    "unite": "forfait",
+    "delai": "2 semaines"
+  },
+  {
+    "id": 18,
+    "nom": "Portabilité de vos numéros",
+    "service": "Téléphonie",
+    "description": "Reprise de vos numéros actuels chez le nouvel opérateur, sans coupure.",
+    "aDistance": true,
+    "prix": 0,
+    "unite": "inclus avec la téléphonie IP",
+    "delai": "3 à 4 semaines"
+  },
+  {
+    "id": 19,
+    "nom": "Standard téléphonique et menu d'accueil",
+    "service": "Téléphonie",
+    "description": "Message d'accueil, horaires, renvois et choix « tapez 1, tapez 2 ».",
+    "aDistance": true,
+    "prix": 180,
+    "unite": "forfait",
+    "delai": "1 semaine"
+  },
+  {
+    "id": 20,
+    "nom": "Renvoi des appels sur les mobiles",
+    "service": "Téléphonie",
+    "description": "Les appels du bureau sonnent sur le téléphone de la bonne personne.",
+    "aDistance": true,
+    "prix": 60,
+    "unite": "forfait",
+    "delai": "48 h"
+  },
+  {
+    "id": 21,
+    "nom": "Visioconférence pour une salle de réunion",
+    "service": "Téléphonie",
+    "description": "Écran, caméra et micro installés et réglés pour Teams ou Zoom.",
+    "aDistance": false,
+    "prix": 1450,
+    "unite": "forfait matériel compris",
+    "delai": "3 semaines"
+  },
+  {
+    "id": 22,
+    "nom": "Installation d'un téléphone de bureau",
+    "service": "Téléphonie",
+    "description": "Livraison, branchement et configuration d'un téléphone IP sur place.",
+    "aDistance": false,
+    "prix": 95,
+    "unite": "par appareil",
+    "delai": "1 semaine"
+  },
+  {
+    "id": 23,
+    "nom": "Maintenance de la téléphonie",
+    "service": "Téléphonie",
+    "description": "Support, mises à jour et dépannage de votre installation téléphonique.",
+    "aDistance": true,
+    "prix": 9,
+    "unite": "par poste et par mois",
+    "delai": "dès l'activation"
+  },
+  {
+    "id": 24,
+    "nom": "Inventaire du parc informatique",
     "service": "Gestion de parc informatique",
-    "titre": "Vos équipements suivis de bout en bout",
-    "description": "De l'inventaire au renouvellement, nous gérons l'ensemble de votre parc informatique (postes, imprimantes, serveurs) pour qu'il reste à jour et performant.",
-    "icone": "ecran",
-    "inclus": [
-      "Inventaire complet de vos équipements",
-      "Déploiement de nouveaux postes prêts à l'emploi",
-      "Suivi du cycle de vie et renouvellement planifié",
-      "Gestion des licences logicielles",
-      "Support utilisateur au quotidien"
-    ],
-    "lien": "services.html#parc"
+    "description": "Liste de tous vos appareils, logiciels, licences et garanties, tenue à jour.",
+    "aDistance": false,
+    "prix": 350,
+    "unite": "forfait",
+    "delai": "1 semaine"
+  },
+  {
+    "id": 25,
+    "nom": "Préparation d'un nouvel ordinateur",
+    "service": "Gestion de parc informatique",
+    "description": "Installation des logiciels, comptes et réglages avant l'arrivée d'un collaborateur.",
+    "aDistance": false,
+    "prix": 180,
+    "unite": "par poste",
+    "delai": "48 h"
+  },
+  {
+    "id": 26,
+    "nom": "Déploiement de 10 postes et plus",
+    "service": "Gestion de parc informatique",
+    "description": "Commande, préparation et installation d'un lot de postes en une seule fois.",
+    "aDistance": false,
+    "prix": 140,
+    "unite": "par poste",
+    "delai": "2 à 3 semaines"
+  },
+  {
+    "id": 27,
+    "nom": "Gestion des licences logicielles",
+    "service": "Gestion de parc informatique",
+    "description": "Suivi des abonnements et des renouvellements pour ne jamais payer en double.",
+    "aDistance": true,
+    "prix": 90,
+    "unite": "par mois",
+    "delai": "1 semaine"
+  },
+  {
+    "id": 28,
+    "nom": "Recyclage et effacement sécurisé",
+    "service": "Gestion de parc informatique",
+    "description": "Effacement certifié des disques et recyclage des anciens appareils.",
+    "aDistance": false,
+    "prix": 35,
+    "unite": "par appareil",
+    "delai": "1 semaine"
+  },
+  {
+    "id": 29,
+    "nom": "Installation d'une imprimante réseau",
+    "service": "Gestion de parc informatique",
+    "description": "Branchement, pilotes sur tous les postes et numérisation vers e-mail.",
+    "aDistance": false,
+    "prix": 160,
+    "unite": "par imprimante",
+    "delai": "48 h"
+  },
+  {
+    "id": 30,
+    "nom": "Audit informatique d'une PME",
+    "service": "Gestion de parc informatique",
+    "description": "Visite de vos locaux, état des lieux et rapport avec les priorités à traiter.",
+    "aDistance": false,
+    "prix": 890,
+    "unite": "forfait",
+    "delai": "2 semaines"
   }
 ]

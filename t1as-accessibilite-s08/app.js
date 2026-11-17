@@ -78,7 +78,7 @@ function afficherLieux(liste) {
 
 zoneEtat.textContent = "Chargement des services…";
 
-fetch("data.json")
+fetch("services.json")
   .then(function (reponse) {
     if (!reponse.ok) {
       throw new Error("Fichier introuvable : code " + reponse.status);
