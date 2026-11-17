@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "service": "Maintenance & Sauvegardes",
+    "titre": "Une infrastructure supervisée en continu",
+    "description": "Nous surveillons vos postes et serveurs, appliquons les correctifs de sécurité et sécurisons vos données avec des sauvegardes automatiques et testées régulièrement.",
+    "icone": "outils",
+    "inclus": [
+      "Supervision proactive des postes et serveurs",
+      "Application des mises à jour de sécurité",
+      "Sauvegardes automatiques quotidiennes",
+      "Tests de restauration réguliers",
+      "Plan de reprise après incident"
+    ],
+    "lien": "services.html#maintenance"
+  },
+  {
+    "id": 2,
+    "service": "Cloud",
+    "titre": "Vos outils accessibles partout, en sécurité",
+    "description": "Nous migrons et gérons vos environnements cloud (messagerie, fichiers, applications métier) pour un accès fluide depuis n'importe où, sans compromis sur la sécurité.",
+    "icone": "nuage",
+    "inclus": [
+      "Migration vers le cloud sans interruption d'activité",
+      "Messagerie et suite bureautique en ligne",
+      "Stockage et partage de fichiers sécurisés",
+      "Hébergement d'applications métier",
+      "Gestion des accès et des droits utilisateurs"
+    ],
+    "lien": "services.html#cloud"
+  },
+  {
+    "id": 3,
+    "service": "Téléphonie",
+    "titre": "Des communications unifiées et fiables",
+    "description": "Nous installons et maintenons vos solutions de téléphonie IP, pour des communications claires entre vos équipes et avec vos clients, sur tous vos sites.",
+    "icone": "telephone",
+    "inclus": [
+      "Téléphonie IP (VoIP) pour un ou plusieurs sites",
+      "Standard téléphonique et renvois d'appels",
+      "Communications unifiées (appels, visio, messagerie)",
+      "Numéros et portabilité gérés pour vous",
+      "Maintenance et support inclus"
+    ],
+    "lien": "services.html#telephonie"
+  },
+  {
+    "id": 4,
+    "service": "Gestion de parc informatique",
+    "titre": "Vos équipements suivis de bout en bout",
+    "description": "De l'inventaire au renouvellement, nous gérons l'ensemble de votre parc informatique (postes, imprimantes, serveurs) pour qu'il reste à jour et performant.",
+    "icone": "ecran",
+    "inclus": [
+      "Inventaire complet de vos équipements",
+      "Déploiement de nouveaux postes prêts à l'emploi",
+      "Suivi du cycle de vie et renouvellement planifié",
+      "Gestion des licences logicielles",
+      "Support utilisateur au quotidien"
+    ],
+    "lien": "services.html#parc"
+  }
+]

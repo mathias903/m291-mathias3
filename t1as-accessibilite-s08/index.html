@@ -112,43 +112,9 @@
       <p class="lead">Quatre piliers pour sécuriser et simplifier votre informatique au quotidien.</p>
     </div>
 
-    <div class="services-grid">
-      <div class="service-card">
-        <div class="service-icon">
-          <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
-        </div>
-        <h3>Maintenance & Sauvegardes</h3>
-        <p>Supervision continue de vos postes et serveurs, correctifs de sécurité, sauvegardes automatiques et testées.</p>
-        <a href="services.html#maintenance" class="service-link">En savoir plus<span class="sr-only"> sur Maintenance & Sauvegardes</span> <span aria-hidden="true">→</span></a>
-      </div>
+    <p id="etat" role="status"></p>
 
-      <div class="service-card">
-        <div class="service-icon">
-          <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
-        </div>
-        <h3>Cloud</h3>
-        <p>Migration, hébergement et gestion de vos environnements cloud (messagerie, fichiers, applications métier).</p>
-        <a href="services.html#cloud" class="service-link">En savoir plus<span class="sr-only"> sur Cloud</span> <span aria-hidden="true">→</span></a>
-      </div>
-
-      <div class="service-card">
-        <div class="service-icon">
-          <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-        </div>
-        <h3>Téléphonie</h3>
-        <p>Solutions de téléphonie IP et communications unifiées, installées et maintenues par nos équipes.</p>
-        <a href="services.html#telephonie" class="service-link">En savoir plus<span class="sr-only"> sur Téléphonie</span> <span aria-hidden="true">→</span></a>
-      </div>
-
-      <div class="service-card">
-        <div class="service-icon">
-          <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
-        </div>
-        <h3>Gestion de parc informatique</h3>
-        <p>Inventaire, déploiement, renouvellement et suivi de l'ensemble de vos équipements informatiques.</p>
-        <a href="services.html#parc" class="service-link">En savoir plus<span class="sr-only"> sur Gestion de parc informatique</span> <span aria-hidden="true">→</span></a>
-      </div>
-    </div>
+    <div class="services-grid" id="liste-cartes"></div>
   </div>
 </section>
 
@@ -408,5 +374,6 @@
 </footer>
 
 <script src="js/script.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
