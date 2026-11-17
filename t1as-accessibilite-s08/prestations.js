@@ -124,6 +124,13 @@ champRecherche.addEventListener("input", function () {
   appliquerFiltres();
 });
 
+// Semaine 14 : le bouton à icône qui vide la recherche
+document.getElementById("effacer").addEventListener("click", function () {
+  champRecherche.value = "";
+  appliquerFiltres();
+  champRecherche.focus();
+});
+
 // ----- Semaine 12 : le formulaire « Une prestation manque ? » -----
 
 const formulaire = document.getElementById("demande");

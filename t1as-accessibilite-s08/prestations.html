@@ -68,6 +68,9 @@
       <label for="recherche">Chercher une prestation ou un service</label>
       <div class="catalogue-ligne">
         <input type="search" id="recherche" placeholder="Ex. sauvegarde, Cloud, imprimante">
+        <button type="button" class="bouton-icone" id="effacer">
+          <img src="icones/fermer.svg" alt="Effacer la recherche" width="20" height="20">
+        </button>
         <button type="button" class="btn btn-outline filtre" id="filtre-distance" aria-pressed="false">Faisable à distance</button>
       </div>
     </div>
@@ -99,7 +102,7 @@
         </select>
       </div>
       <p id="erreurs" aria-live="polite"></p>
-      <button type="submit" class="btn btn-primary">Proposer la prestation</button>
+      <button type="submit" class="btn btn-primary"><img src="icones/plus.svg" alt="" width="20" height="20" class="icone">Proposer la prestation</button>
     </form>
   </div>
 </section>

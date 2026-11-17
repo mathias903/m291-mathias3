@@ -1010,3 +1010,21 @@ html { scroll-padding-top: 96px; }
     animation: none;
   }
 }
+
+/* M291 semaine 14 : les icônes SVG */
+.icone {
+  vertical-align: middle;
+  margin-right: 0.4em;
+}
+.bouton-icone {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 48px;
+  min-height: 48px;
+  background: var(--white);
+  border: 1px solid var(--border-field);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+}
+.bouton-icone:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }

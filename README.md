@@ -18,3 +18,8 @@ Les fiches ajoutées par le formulaire restent affichées jusqu'au rechargement 
 - Les cartes des services et des prestations apparaissent en fondu, au chargement et à chaque recherche. Elles disent : « la liste a changé ».
 - La zone `#erreurs` du formulaire des prestations apparaît en fondu. Elle dit : « regardez ici : il y a quelque chose à corriger ».
 - J'ai retiré le mouvement des cartes de services au survol : la carte ne se clique pas, seul son lien « En savoir plus » se clique.
+
+## Sources des icônes (site T1AS)
+
+- `t1as-accessibilite-s08/icones/fermer.svg` : icône « x » de Lucide (lucide.dev), licence ISC, couleur adaptée au site
+- `t1as-accessibilite-s08/icones/plus.svg` : icône « plus » de Lucide (lucide.dev), licence ISC, couleur adaptée au site
