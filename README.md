@@ -74,5 +74,5 @@ Les fiches ajoutées par le formulaire restent affichées jusqu'au rechargement 
 
 - **Outil et date :** Claude, 17 novembre 2026
 - **Ce que j'ai demandé :** trois micro-interactions en CSS seul, avec un bloc `prefers-reduced-motion` qui les coupe.
-- **Ce que l'IA a rendu de faux ou d'inutile :** mes cartes de services de l'accueil montaient au survol alors qu'elles ne se cliquent pas.
+- **Ce que l'IA a rendu de faux ou d'inutile :** rien de faux dans les trois règles ; mais en faisant le test « enlevez le mouvement », j'ai vu que mes cartes de services de l'accueil montaient au survol alors qu'elles ne se cliquent pas.
 - **Ce que j'ai corrigé à la main :** la règle `.service-card:hover` est retirée de `css/style.css`.
